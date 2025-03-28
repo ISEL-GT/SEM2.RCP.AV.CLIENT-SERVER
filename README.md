@@ -17,6 +17,7 @@ to others and create a typical corporate network.
 ### **Requirements**
 - **Kotlin Compiler**: [Download here](https://kotlinlang.org/docs/command-line.html)
 - **JDK 22**: [Download here](https://www.oracle.com/java/technologies/javase/jdk22-archive-downloads.html)
+- **XAMPP (w/Apache Server)**: [Download Here](https://www.apachefriends.org/download.html)
 
 ---
 
