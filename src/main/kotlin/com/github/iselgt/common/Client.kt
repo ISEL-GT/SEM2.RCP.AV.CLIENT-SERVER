@@ -1,8 +1,5 @@
-package org.example.client
+package com.github.iselgt.common
 
-import com.sun.org.apache.xerces.internal.util.XMLChar.trim
-import jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.header
-import org.example.common.Response
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.io.PrintWriter
@@ -138,7 +135,7 @@ class Client(val hostname: String, val port: Int = 80) {
      * @param path The website's path to the page we want (hostname/path, ex: facebook.com/login)
      * @return The response data from the host
      */
-    fun get_page(path: String = ""): Response {
+    fun getPage(path: String = ""): Response {
 
         var response = this.sendGetRequest(path)
 

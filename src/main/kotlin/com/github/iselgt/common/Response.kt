@@ -1,8 +1,7 @@
-package org.example.common
+package com.github.iselgt.common
 
 import java.text.SimpleDateFormat
 import java.util.Date
-import java.util.Dictionary
 import java.util.Locale
 
 /**
